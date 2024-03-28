@@ -1,0 +1,17 @@
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\bin\Debug\net7.0\Application.deps.json
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\bin\Debug\net7.0\Application.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\bin\Debug\net7.0\Application.pdb
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\bin\Debug\net7.0\Core.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\bin\Debug\net7.0\Core.pdb
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Application.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\refint\Application.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Application.pdb
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\ref\Application.dll
