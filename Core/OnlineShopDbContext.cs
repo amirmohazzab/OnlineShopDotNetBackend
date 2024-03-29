@@ -10,20 +10,17 @@ public class OnlineShopDbContext: DbContext
         
     }
 
-
-    //public DbSet<Product> Products {get; set;}
     public DbSet<Product> Products => Set<Product>();
+    public DbSet<User> Users => Set<User>();
+
+    public DbSet<UserRefreshToken> UserRefreshTokens => Set<UserRefreshToken>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // modelBuilder.Entity<Product>()
-        // .Property(b => b.ProductName)
-        // .HasColumnName("Title")
-        // .IsRequired();
-
-        // modelBuilder.Entity<Product>().ToTable("PProduct");
 
         modelBuilder.ApplyConfiguration(new ProductEntityConfiguration());
+        modelBuilder.ApplyConfiguration(new UserEntityConfiguration());
+        modelBuilder.ApplyConfiguration(new UserRefreshTokenEntityConfiguration());
         
     }
 

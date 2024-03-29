@@ -15,3 +15,4 @@ C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Applica
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\refint\Application.dll
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Application.pdb
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\ref\Application.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Application\obj\Debug\net7.0\Application.sourcelink.json

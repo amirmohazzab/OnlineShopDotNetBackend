@@ -13,3 +13,4 @@ C:\Users\DELL\Desktop\ApiProject\OnlineShop\Infrastructure\bin\Debug\net7.0\Core
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Infrastructure\bin\Debug\net7.0\Core.pdb
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Infrastructure\obj\Debug\net7.0\Infrastructure.sourcelink.json

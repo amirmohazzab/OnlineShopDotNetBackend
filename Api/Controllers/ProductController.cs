@@ -1,4 +1,5 @@
 using Infrastructure.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
@@ -6,6 +7,7 @@ namespace Api.Controllers;
 
 [ApiController]
 [Route("[Controller]")]
+[Authorize]
 public class ProductController : ControllerBase
 {
     private readonly IProductService productService;

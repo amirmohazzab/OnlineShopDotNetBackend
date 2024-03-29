@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sQOz4Ihd0UpANoWEwDjlnbaP3x+dDHlRBB9r71SLjLytzs8Dk6YvFx3R59NhksaMDCNnwuEleSx6k6v0Q7l22g==",
+  "dgSpecHash": "4ItVsiq5nP1g6rzJsfvIM0ZuG8gn5Pb9dD5uF7huGxCpjg2xKX0JBM7UcWlmNEmf0oe5aZ+VZ2NcZw5CgSMVcA==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\Desktop\\ApiProject\\OnlineShop\\Api\\Api.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.17\\microsoft.aspnetcore.authentication.jwtbearer.7.0.17.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.17\\microsoft.aspnetcore.openapi.7.0.17.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

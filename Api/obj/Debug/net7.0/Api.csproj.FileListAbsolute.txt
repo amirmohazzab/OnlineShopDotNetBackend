@@ -86,3 +86,5 @@ C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\AutoMapper.Exte
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\MediatR.dll
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\MediatR.Contracts.dll
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\obj\Debug\net7.0\Api.sourcelink.json
