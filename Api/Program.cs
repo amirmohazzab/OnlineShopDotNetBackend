@@ -10,6 +10,9 @@ using Infrastructure.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Applicaiton;
+using Microsoft.Extensions.DependencyInjection;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,7 +45,10 @@ builder.Services.AddSwagger();
 builder.Services.AddJWT();
 
 // Services Registration
-builder.Services.AddScoped<IProductService, ProductService>();
+//builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddApplicationServices();
+builder.Services.AddMemoryCache();
+
 builder.Services.AddUnitOfWork();
 builder.Services.AddInfraUtility();
 

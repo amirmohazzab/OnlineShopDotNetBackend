@@ -1,7 +1,7 @@
 
 using AutoMapper;
 using Core;
-using Core.Entities;
+using Core.Entities.Security;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 

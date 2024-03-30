@@ -88,3 +88,8 @@ C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\MediatR.Contrac
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\obj\Debug\net7.0\Api.sourcelink.json
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll

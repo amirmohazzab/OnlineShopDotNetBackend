@@ -1,6 +1,6 @@
 
 
-namespace Core.Entities;
+namespace Core.Entities.Security;
 
 public class UserRefreshToken
 {

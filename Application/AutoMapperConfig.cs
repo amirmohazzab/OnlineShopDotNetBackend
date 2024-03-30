@@ -1,6 +1,7 @@
 using Application.CQRS.Notifications;
 using Application.CQRS.ProductCommandQuery.Query;
 using AutoMapper;
+using Core.Entities.Security;
 using Core.Entities;
 using Infrastructure.Dto;
 

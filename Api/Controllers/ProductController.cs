@@ -1,3 +1,4 @@
+using Api.CustomAttribute;
 using Infrastructure.Dto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -6,7 +7,7 @@ using Swashbuckle.AspNetCore.Annotations;
 namespace Api.Controllers;
 
 [ApiController]
-[Route("[Controller]")]
+[Route("api/[Controller]")]
 [Authorize]
 public class ProductController : ControllerBase
 {
@@ -38,6 +39,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpPost]
+    [AccessControl(Permission = "product-add")]
     public async Task<IActionResult> Create(ProductDto model) {
 
         var result = await productService.Add(model);

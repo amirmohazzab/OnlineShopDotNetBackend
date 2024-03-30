@@ -1,6 +1,6 @@
 using AutoMapper.Internal.Mappers;
 using Core;
-using Core.Entities;
+using Core.Entities.Security;
 using Infrastructure.Dto;
 using Infrastructure.Utility;
 using MediatR;
