@@ -21,6 +21,7 @@ public static class DIRegister
     public static void AddInfraUtility(this IServiceCollection services)
     {
         services.AddSingleton<EncryptionUtility>();
+        services.AddSingleton<MyFileUtility>();
     }
 
 }

@@ -12,7 +12,7 @@ namespace Application
         public AutoMapperConfig()
         {
  
-            CreateMap<Product, ProductDto>().ReverseMap();
+            //CreateMap<Product, ProductDto>().ReverseMap();
 
             CreateMap<Product, ProductDto>()
             .ForMember(dest => dest.PriceWithComma, opt => opt.MapFrom(src => String.Format("{0:n0}", src.Price)))

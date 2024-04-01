@@ -3,6 +3,7 @@
 using Application.CQRS.AuthenticateCommandQuery.Command;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using StackExchange.Profiling;
 
 namespace Api.Controller;
 
@@ -19,8 +20,11 @@ public class AuthenticateController:ControllerBase
         [HttpPost]
         public async Task<IActionResult> Post(LoginCommand loginCommand)
         {
-            var result = await mediator.Send(loginCommand);
-            return Ok(result);
+            using (MiniProfiler.Current.Step("Login Method"))
+            {
+                var result = await mediator.Send(loginCommand);
+                return Ok(result);
+            }
         }
 
         [HttpPost("register")]

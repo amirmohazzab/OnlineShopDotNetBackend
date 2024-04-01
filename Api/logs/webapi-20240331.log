@@ -1,0 +1,47 @@
+[2024-03-31 23:24:45.195 -07:00  INF]  User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-03-31 23:24:45.620 -07:00  INF]  Now listening on: http://localhost:5073
+[2024-03-31 23:24:45.622 -07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-03-31 23:24:45.623 -07:00  INF]  Hosting environment: Development
+[2024-03-31 23:24:45.623 -07:00  INF]  Content root path: C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api
+[2024-03-31 23:26:32.046 -07:00  INF]  Application is shutting down...
+[2024-03-31 23:26:56.933 -07:00  INF]  User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-03-31 23:26:57.111 -07:00  INF]  Now listening on: http://localhost:5073
+[2024-03-31 23:26:57.114 -07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-03-31 23:26:57.114 -07:00  INF]  Hosting environment: Development
+[2024-03-31 23:26:57.114 -07:00  INF]  Content root path: C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api
+[2024-03-31 23:28:57.050 -07:00  INF]  Request starting HTTP/1.1 GET http://localhost:5073/swagger/v1/swagger.json - -
+[2024-03-31 23:28:57.751 -07:00  INF]  Request finished HTTP/1.1 GET http://localhost:5073/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 703.1176ms
+[2024-03-31 23:34:28.499 -07:00  INF]  Application is shutting down...
+[2024-03-31 23:40:38.438 -07:00  INF]  User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-03-31 23:40:39.037 -07:00  INF]  Now listening on: http://localhost:5073
+[2024-03-31 23:40:39.048 -07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-03-31 23:40:39.048 -07:00  INF]  Hosting environment: Development
+[2024-03-31 23:40:39.048 -07:00  INF]  Content root path: C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api
+[2024-03-31 23:41:47.060 -07:00  INF]  Application is shutting down...
+[2024-03-31 23:46:47.786 -07:00  INF]  User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-03-31 23:46:48.032 -07:00  INF]  Now listening on: http://localhost:5073
+[2024-03-31 23:46:48.034 -07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2024-03-31 23:46:48.035 -07:00  INF]  Hosting environment: Development
+[2024-03-31 23:46:48.035 -07:00  INF]  Content root path: C:\Users\DELL\Desktop\ApiProject\OnlineShop\Api
+[2024-03-31 23:48:27.622 -07:00  INF]  Request starting HTTP/1.1 GET http://localhost:5073/swagger/v1/swagger.json - -
+[2024-03-31 23:48:28.340 -07:00  INF]  Request finished HTTP/1.1 GET http://localhost:5073/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 721.7823ms
+[2024-03-31 23:58:19.165 -07:00  INF]  Request starting HTTP/1.1 GET http://localhost:5073/api/Product?page=2&size=3 - -
+[2024-03-31 23:58:19.189 -07:00  WRN]  Failed to determine the https port for redirect.
+[2024-03-31 23:58:19.399 -07:00  INF]  Executing endpoint 'Api.Controllers.ProductController.GetAll (Api)'
+[2024-03-31 23:58:19.469 -07:00  INF]  Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Api.Controllers.ProductController (Api).
+[2024-03-31 23:58:19.767 -07:00  INF]  Call add from Product Service
+[2024-03-31 23:58:21.375 -07:00  WRN]  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2024-03-31 23:58:21.376 -07:00  WRN]  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+[2024-03-31 23:58:22.320 -07:00  INF]  Executed DbCommand (163ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Price], [p].[Title] AS [ProductName]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+[2024-03-31 23:58:22.451 -07:00  INF]  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+[2024-03-31 23:58:22.455 -07:00  INF]  Getall from ProductService success call
+[2024-03-31 23:58:22.471 -07:00  INF]  Executing OkObjectResult, writing value of type 'Infrastructure.Models.ShopActionResult`1[[System.Collections.Generic.List`1[[Infrastructure.Dto.ProductDto, Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2024-03-31 23:58:22.564 -07:00  INF]  Executed action Api.Controllers.ProductController.GetAll (Api) in 3085.9154ms
+[2024-03-31 23:58:22.565 -07:00  INF]  Executed endpoint 'Api.Controllers.ProductController.GetAll (Api)'
+[2024-03-31 23:58:22.595 -07:00  INF]  Request finished HTTP/1.1 GET http://localhost:5073/api/Product?page=2&size=3 - - - 200 - application/json;+charset=utf-8 3429.1000ms

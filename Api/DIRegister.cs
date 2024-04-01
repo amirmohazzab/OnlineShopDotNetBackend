@@ -48,11 +48,11 @@ public static class DIRegister
                     Version = "v1",
                     Title = "My App API",
                     Description = "My App API - Version01",
-                    TermsOfService = new Uri("https://portfolio.ahmohazzab.com/"),
+                    TermsOfService = new Uri("https://github.com/amirmohazzab/OnlineShopDotNetBackend/"),
                     License = new OpenApiLicense
                     {
                         Name = "Amir Mohazzab",
-                        Url = new Uri("https://portfolio.ahmohazzab.com/"),
+                        Url = new Uri("https://github.com/amirmohazzab/OnlineShopDotNetBackend/"),
                     }
                 });
 

@@ -14,5 +14,13 @@ public class Product
 
     public int Price { get; set; }
 
+    public byte[] Thumbnail { get; set; }
+
+    public string ThumbnailFileName { get; set; }
+
+    public long ThumbnailFileSize { get; set; }
+
+    public string ThumbnailFileExtension { get; set; }
+
 
 }
